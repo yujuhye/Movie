@@ -1,0 +1,49 @@
+.mainSlider {
+    margin-left: 50px;
+}
+
+.mainBanner {
+    margin-bottom: 30px;
+}
+
+.recSlider,
+.curSlider {
+    margin-bottom: 30px;
+}
+
+div.recSlider > p,
+div.curSlider > p {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+div.eventpage, div.news {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; /* Eventpage와 News 사이의 간격 조정 */
+}
+
+.I {
+    font-weight: 900;
+    font-size: 25px;
+    color: #7a8eff;
+    margin-right: 2px;
+    margin-bottom: 0;
+}
+
+.eventDiv {
+    padding: 0 50px;
+    text-align: center;
+}
+
+.eventDiv .news {
+    width: 580px;
+}
+
+.eventDiv .eventpage {
+    margin-right: 0;
+}
+

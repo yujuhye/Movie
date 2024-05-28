@@ -1,0 +1,36 @@
+/* menubar.css */
+
+body {
+    font-family: '돋움', Dotum, 'AppleGothic', sans-serif;
+}
+
+.menubar {
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px groove #7a8eff;
+}
+.activeMenu {
+    color: #ff0000;
+}
+
+/* 메인 메뉴 스타일 */
+.mainMenu {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px 85px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000; /* 기본 글자색 설정 */
+    transition: color 0.3s; /* 색상 변경에 애니메이션 효과 추가 */
+}
+
+/* 메인 메뉴 호버 시 배경색 투명화 */
+.mainMenu:hover,
+.activeMenu {
+    background-color: transparent;
+    color: #ff0000; /* 클릭 시 글자색 변경 */
+}
+

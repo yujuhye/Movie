@@ -1,0 +1,46 @@
+/* footer.css */
+
+.footer-container {
+    background-color: #333; /* 배경색을 원하는 색상으로 설정하세요 */
+    color: #fff; /* 텍스트 색상을 원하는 색상으로 설정하세요 */
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    text-align: center;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 0.8em;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+    color: #fff;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-container a {
+    color: #fff !important;
+  }
+
+  

@@ -1,0 +1,58 @@
+/* userReviewList.css */
+
+.close_btn_wrap {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.listbox {
+    width: 500px;
+    position: relative ;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .listbox p {
+    margin: 0;
+  }
+  
+  .listbox button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .listbox button:hover {
+    background-color: #c0392b;
+  }
+
+  .id_wrap {
+    font-size: 20px;
+  }
+
+  .cotents_wrap {
+    padding: 20px;
+  }
+  
+  .date_wrap {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 15px;
+  }
+
+  .remove_btn_box {
+    position: absolute;
+    left: 13px;
+    bottom: 6px;
+  }
+  
+  
+  

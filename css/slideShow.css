@@ -1,0 +1,28 @@
+/* Slideshow.css */
+
+.slideshow-container {
+    position: relative;
+    width: 300px; /* 원하는 슬라이드 쇼의 너비로 설정하세요 */
+    height: auto; /* 이미지 비율에 따라 높이 자동 조정 */
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out; /* 이미지 전환 애니메이션 설정 */
+}
+
+.slide {
+    width: 100%;
+    height: auto; /* 이미지 비율에 따라 높이 자동 조정 */
+}
+
+.active {
+    display: block;
+    opacity: 1;
+}
+
+/* 옆으로 슬라이드되도록 설정 */
+.slide {
+    min-width: 100%; /* 이미지가 슬라이드되도록 너비 설정 */
+}

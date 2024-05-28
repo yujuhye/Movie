@@ -1,0 +1,73 @@
+.gSilder {
+    width: 100%;
+    height: 300px;
+    padding-left: 0px;
+    margin-top: 0px;
+
+}
+
+.gSilder .slick-slider {
+    width: 990px;
+}
+
+.gSilder .slick-list {
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 360px;
+}
+
+/* .gSilder .slick-track {
+    height: 380px;
+} */
+
+.gSilder .slick-slide {
+    padding-left: 0;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    height: 360px;
+
+
+
+} 
+
+.genreContainer {
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 190px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.genreContainer:hover {
+    transform: scale(1.15);
+}
+
+.listContainer {
+    /* position: relative; */
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+.gTitle {
+    position: absolute;
+    bottom: -29px; 
+    width: 100%;
+    padding: 6px 0;
+    margin: 0;
+    margin-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0 0 8px 8px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    
+}
+
+.genreContainer:hover .gTitle {
+    opacity: 1;
+}
+

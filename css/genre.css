@@ -1,0 +1,15 @@
+.gContainer {
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.gOneLine {
+    height: 360px;
+}
+
+.genreTitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}

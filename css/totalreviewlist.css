@@ -1,0 +1,71 @@
+/* totalReviewList.css */
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
+.review_container {
+  width: 1000px;
+    margin:  0 auto;
+    border: 1px solid  #ddd;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .sort-dropdown {
+    margin-bottom: 10px;
+  }
+  
+  .commentsBox {
+    margin: 0 auto;
+    width: 650px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .commentsBox p {
+    margin: 5px 0;
+  }
+
+  .commentsBox p.date {
+    text-align: right;
+    font-size: 13px;
+  }
+
+  .comment {
+    padding: 10px 20px 5px 20px;
+    font-family: 'Gothic A1', sans-serif;
+  }
+
+  .commentsBox p.id {
+    font-size: 15px;
+  }
+  
+  .commentsBox:hover {
+    background-color: #f5f5f5;
+  }
+
+  .select{
+  height: 25px;
+  margin: 10px;
+  padding: 3px;
+  text-align: center;
+  border-radius: 8px;
+  /* appearance: none; */
+  font-family: 'Gothic A1', sans-serif;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  }
+
+  .select ::-ms-expand {
+    display: none;
+  }
+
+  .comment_length{
+  margin-left: 15px;
+  padding: 10px;
+  font-weight: bold;
+  } 
+
+  

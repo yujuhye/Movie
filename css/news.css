@@ -1,0 +1,30 @@
+/* News 컴포넌트에 적용될 CSS */
+
+/* 뉴스를 세로로 배치하고 다섯 줄까지만 보이도록 설정 */
+.news_Wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #ccc; /* 박스의 보더 라인 설정 */
+    width: 570px; /* 가로 너비 설정 */
+    height: 280px;
+    padding: 10px; /* 내부 여백 설정 */
+}
+
+.news_Wrap p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* 개별 뉴스 항목 */
+a {
+    text-decoration: none;
+    color: #333; /* 텍스트 색상 설정 */
+    margin-bottom: 8px; /* 뉴스 항목 사이의 간격 설정 */
+}
+
+a:last-child {
+    margin-bottom: 0; /* 마지막 뉴스 항목의 아래 간격 제거 */
+}

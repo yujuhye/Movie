@@ -1,0 +1,70 @@
+.container {
+    max-width: 1000px; 
+    margin: 0 auto; 
+    border-radius: 8px;
+  }
+  
+.container .slick-slide img {
+    width: 100%; 
+    height: 160px;
+
+}
+
+.container .slick-list {
+  padding: 0;
+  border-radius: 8px;
+  height: 160px;
+}
+
+.container .slick-slider {
+  height: 160px;
+  border-radius: 8px;
+
+}
+
+.container .slick-slide {
+  padding: 0;
+  border-radius: 8px;
+  height: 160px;
+
+}
+
+.slick-track {
+  border-radius: 8px;
+}
+
+.stillContainer {
+  height: 160px;
+  border-radius: 8px;
+
+}
+
+.stillTitle {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+/* modal start */
+div.modal_bg {
+  width: 100%; height: 100%;
+  position: fixed;
+  left: 0; top: 0;
+  background-color:  rgba(0,0,0,.7);
+  z-index: 1;
+  /* transform: translate(-50%, -50%); */
+
+}
+
+div.modal_bg div.modal {
+  text-align: center;
+  position: fixed;
+  width: 100%; height: 100%;
+  left: 0; bottom: -10%;
+}
+
+/* .slick-slide {
+  padding-right: 20px;
+} */

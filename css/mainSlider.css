@@ -1,0 +1,67 @@
+.mSilder {
+    width: 900px;
+    height: 360px;
+    padding-left: 0;
+}
+
+
+.slick-list {
+    height: 360px;  
+
+}
+
+.slick-track {
+    height: 360px;
+
+}
+
+.slick-slide {
+    /* padding-right: 25px; */
+    height: 360px;
+
+
+} 
+
+.slick-slider {
+    height: 360px;
+}
+
+
+.slideContainer {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.liContainer {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+.title {
+    margin-top: 8px;
+}
+
+.nextArrow,
+.PrevArrow {
+    cursor: pointer;
+    position: absolute;
+    font-size: 40px;
+}
+
+.nextArrow {
+    left: 915px;
+    top: 140px;
+} 
+
+.PrevArrow {
+    left: -55px;
+    top: 130px;
+
+}
+
+
+
+
+
