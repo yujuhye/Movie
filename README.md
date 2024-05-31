@@ -19,7 +19,7 @@
 ### 사용기술
 ---
 + #### Front
-  React, LocalStorage
+  React, LocalStorage,
   Html, css
 
 ### 개발환경
