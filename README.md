@@ -1,5 +1,9 @@
 # Movie
 
+<p align=center>
+<img width=60% src="https://github.com/yujuhye/Movie/assets/161537140/0028eee2-13e3-4fba-80a7-9b6955d1104b">
+<p/>
+
 ### 개발팀원
 ---
 + **유주해(풀스텍)** - 댓글 정렬, 슬라이드 구현, UI/UX
